@@ -1,10 +1,10 @@
-package com.haiker.edas.demo.consumer;
+package com.haiker.edas.demo.user;
 
 import org.springframework.context.annotation.Configuration;
 
 import com.alibaba.boot.hsf.annotation.HSFConsumer;
-import com.haiker.edas.demo.EchoService;
-import com.haiker.edas.demo.async.AsyncEchoService;
+import com.haiker.edas.demo.order.EchoService;
+import com.haiker.edas.demo.order.async.AsyncEchoService;
 
 /**
  * @author eonezhang 19/04/2018

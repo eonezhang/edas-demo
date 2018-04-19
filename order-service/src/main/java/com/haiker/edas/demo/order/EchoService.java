@@ -1,4 +1,4 @@
-package com.haiker.edas.demo;
+package com.haiker.edas.demo.order;
 
 /**
  * @author eonezhang 18/04/2018

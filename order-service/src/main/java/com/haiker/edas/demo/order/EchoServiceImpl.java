@@ -1,4 +1,4 @@
-package com.haiker.edas.demo;
+package com.haiker.edas.demo.order;
 
 import com.alibaba.boot.hsf.annotation.HSFProvider;
 

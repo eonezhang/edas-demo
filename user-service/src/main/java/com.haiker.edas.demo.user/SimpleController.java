@@ -1,4 +1,4 @@
-package com.haiker.edas.demo.consumer;
+package com.haiker.edas.demo.user;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.haiker.edas.demo.EchoService;
+import com.haiker.edas.demo.order.EchoService;
 
 /**
  * @author eonezhang 19/04/2018

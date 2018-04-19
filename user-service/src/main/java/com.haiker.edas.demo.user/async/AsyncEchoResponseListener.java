@@ -1,7 +1,7 @@
-package com.haiker.edas.demo.consumer.async;
+package com.haiker.edas.demo.user.async;
 
 import com.alibaba.boot.hsf.annotation.AsyncOn;
-import com.haiker.edas.demo.async.AsyncEchoService;
+import com.haiker.edas.demo.order.async.AsyncEchoService;
 import com.taobao.hsf.exception.HSFException;
 import com.taobao.hsf.tbremoting.invoke.CallbackInvocationContext;
 import com.taobao.hsf.tbremoting.invoke.HSFResponseCallback;

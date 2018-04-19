@@ -1,4 +1,4 @@
-package com.haiker.edas.demo.async;
+package com.haiker.edas.demo.order.async;
 
 import com.alibaba.boot.hsf.annotation.HSFProvider;
 

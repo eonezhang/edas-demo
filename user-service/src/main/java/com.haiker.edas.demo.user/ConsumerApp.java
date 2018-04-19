@@ -1,4 +1,4 @@
-package com.haiker.edas.demo.consumer;
+package com.haiker.edas.demo.user;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

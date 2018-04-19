@@ -1,4 +1,4 @@
-package com.haiker.edas.demo.consumer.async;
+package com.haiker.edas.demo.user.async;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.haiker.edas.demo.async.AsyncEchoService;
+import com.haiker.edas.demo.order.async.AsyncEchoService;
 import com.taobao.hsf.tbremoting.invoke.CallbackInvocationContext;
 import com.taobao.hsf.tbremoting.invoke.HSFFuture;
 import com.taobao.hsf.tbremoting.invoke.HSFResponseFuture;

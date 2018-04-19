@@ -44,6 +44,8 @@ dependencyManagement {
 dependencies{
     compile('org.springframework.cloud:spring-cloud-starter-hsf:1.1')
     compile('org.springframework.cloud:spring-cloud-starter-pandora:1.2')
+//    compile('org.springframework.cloud:spring-cloud-starter-vipclient:1.1')
+//    compile('org.springframework.cloud:spring-cloud-starter-eagleeye:1.1')
     compile('org.springframework.boot:spring-boot-starter-web')
     compile project(':order-service')
 }
