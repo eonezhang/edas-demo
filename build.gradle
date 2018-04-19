@@ -1,0 +1,16 @@
+buildscript{
+
+    repositories {
+        maven {
+            url 'http://maven.aliyun.com/nexus/content/groups/public/'
+        }
+        maven{
+            url 'http://edas-public.oss-cn-hangzhou.aliyuncs.com/repository'
+        }
+    }
+
+    dependencies {
+        classpath("com.taobao.pandora:pandora-boot-gradle-plugin:2.1.7.8-SNAPSHOT")
+        classpath("io.spring.gradle:dependency-management-plugin:1.0.4.RELEASE")
+    }
+}
