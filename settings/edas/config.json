@@ -1,0 +1,24 @@
+{
+  "edas": {
+    "host": "edas.console.aliyun.com",
+    "port": 80
+  },
+  "apps": [
+    {
+      "appName": "order-service",
+      "appId": "32eec081-a42b-4ee2-9628-2fb5f7b26842",
+      "userId": "chenfushou@1608116465755753",
+      "target": "order-service/build/libs/order-service-0.0.1.jar",
+      "deployGroupId":"all",
+      "batch":1
+    },
+    {
+      "appName": "user-service",
+      "appId": "a71e6dba-a2db-47b4-abf6-a8185239472a",
+      "userId": "chenfushou@1608116465755753",
+      "target": "user-service/build/libs/user-service-0.0.1.jar",
+      "deployGroupId":"all",
+      "batch":1
+    }
+  ]
+}

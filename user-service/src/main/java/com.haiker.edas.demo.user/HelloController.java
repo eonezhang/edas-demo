@@ -1,4 +1,4 @@
-package com.haiker.edas.demo.order;
+package com.haiker.edas.demo.user;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

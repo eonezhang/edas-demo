@@ -30,7 +30,7 @@ public class TestAsyncController {
 
         try {
             HSFFuture hsfFuture = HSFResponseFuture.getFuture();
-            str = (String) hsfFuture.getResponse(3000);
+            str2 = (String) hsfFuture.getResponse(3000);
         } catch (Throwable e) {
             e.printStackTrace();
             str2 = "future-exception";
