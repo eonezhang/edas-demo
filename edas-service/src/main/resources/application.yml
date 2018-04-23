@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: hsf-provider
+  hsf:
+    version: 1.0.0
+    timeout: 3000
+server:
+  port: 18081

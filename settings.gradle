@@ -1,2 +1,2 @@
 rootProject.name = 'demo'
-include "user-service", "order-service"
+include "user-service", "order-service", "edas-service"
