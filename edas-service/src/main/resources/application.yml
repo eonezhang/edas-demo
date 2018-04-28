@@ -1,8 +1,16 @@
-spring:
-  application:
-    name: hsf-provider
-  hsf:
-    version: 1.0.0
-    timeout: 3000
 server:
   port: 18081
+
+spring:
+  application:
+    name: sample-app
+    group: com.alibaba.cloud.acm
+
+alibaba:
+  acm:
+    endpoint: acm.aliyun.com
+    namespace: ****
+    accessKey: ***
+    secretKey: ***
+management:
+  port: 7002

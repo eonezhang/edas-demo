@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: hsf-consumer
+server:
+  port: 18082

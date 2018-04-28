@@ -26,6 +26,9 @@ sourceCompatibility = 1.8
 
 repositories {
     mavenLocal()
+    maven {
+        url 'http://maven.aliyun.com/nexus/content/groups/public/'
+    }
     maven{
         url 'http://edas-public.oss-cn-hangzhou.aliyuncs.com/repository'
     }
@@ -48,7 +51,11 @@ dependencyManagement {
 
 dependencies{
     testCompile('org.springframework.boot:spring-boot-starter-test')
+    compile('org.springframework.cloud:spring-cloud-starter-pandora:1.2')
+    compile('org.springframework.boot:spring-boot-starter')
     compile('org.springframework.boot:spring-boot-starter-web')
     compile('com.aliyun:aliyun-java-sdk-edas:2.16.0-SNAPSHOT')
     compile('com.alibaba.edas:edas-open-api-sdk:2.12.3')
+//    compile('com.alibaba.edas.acm:acm-sdk:1.0.6')
+    compile('com.alibaba.cloud:spring-cloud-starter-acm:1.0.5')
 }

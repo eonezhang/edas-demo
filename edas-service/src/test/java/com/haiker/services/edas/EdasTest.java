@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.junit.Ignore;
 import org.junit.Test;
 import org.springframework.util.CollectionUtils;
 
@@ -24,6 +25,7 @@ import com.aliyuncs.profile.DefaultProfile;
 public class EdasTest {
 
     @Test
+    @Ignore
     public void initEdas() throws ClientException {
         String region = "cn-hangzhou";
         String accessKeyId = "TODO";
@@ -51,6 +53,7 @@ public class EdasTest {
     }
 
     @Test
+    @Ignore
     public void deployOrderService() throws ClientException {
         String region = "cn-hangzhou";
         String accessKeyId = "TODO";

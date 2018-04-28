@@ -3,6 +3,7 @@ package com.haiker.edas.demo.order;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import com.haiker.edas.demo.order.components.ConfigCenter;
 import com.taobao.pandora.boot.PandoraBootstrap;
 
 /**
@@ -12,6 +13,7 @@ import com.taobao.pandora.boot.PandoraBootstrap;
 public class ServerApplication {
     public static void main(String[] args) {
         PandoraBootstrap.run(args);
+        ConfigCenter.initConfig();
         SpringApplication.run(ServerApplication.class, args);
         PandoraBootstrap.markStartupAndWait();
     }

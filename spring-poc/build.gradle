@@ -1,10 +1,9 @@
-buildscript {
-
+buildscript{
     repositories {
         maven {
             url 'http://maven.aliyun.com/nexus/content/groups/public/'
         }
-        maven {
+        maven{
             url 'http://edas-public.oss-cn-hangzhou.aliyuncs.com/repository'
         }
     }
@@ -16,28 +15,24 @@ buildscript {
 }
 
 
-
 apply plugin: 'java'
-apply plugin: 'idea'
+apply plugin: 'eclipse'
 apply plugin: 'io.spring.dependency-management'
 apply plugin: 'com.taobao.pandora.boot'
 
-sourceCompatibility = 1.8
-
 repositories {
-    maven {
+    maven{
         url 'http://edas-public.oss-cn-hangzhou.aliyuncs.com/repository'
     }
     maven {
-        url 'http://maven.aliyun.com/nexus/content/groups/public'
+        url 'http://maven.aliyun.com/nexus/content/groups/public/'
     }
-
-    mavenCentral()
 }
 
 bootRepackage {
     excludeSar = true
 }
+
 
 dependencyManagement {
     imports {
@@ -46,14 +41,8 @@ dependencyManagement {
     }
 }
 
-dependencies {
-    compile('org.springframework.cloud:spring-cloud-starter-hsf:1.1')
-    compile('org.springframework.cloud:spring-cloud-starter-pandora:1.2')
-    compile('com.alibaba.edas.configcenter:configcenter-client:1.0.2')
-    compile('com.alibaba.cloud:spring-cloud-starter-acm:1.0.5')
-//    compile('org.springframework.cloud:spring-cloud-starter-vipclient:1.1')
-//    compile('org.springframework.cloud:spring-cloud-starter-eagleeye:1.1')
-    compile('org.springframework.boot:spring-boot-starter-test')
+dependencies{
+    compile('org.springframework.boot:spring-boot-starter')
     compile('org.springframework.boot:spring-boot-starter-web')
-    testCompile "junit:junit"
+    compile('com.ctrip.framework.apollo:apollo-client:0.10.2')
 }
