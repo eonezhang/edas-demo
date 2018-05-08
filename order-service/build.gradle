@@ -56,4 +56,5 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-test')
     compile('org.springframework.boot:spring-boot-starter-web')
     testCompile "junit:junit"
+    compile('com.alibaba.edas:schedulerX-client:2.1.5')
 }

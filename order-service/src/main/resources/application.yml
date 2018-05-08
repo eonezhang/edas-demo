@@ -1,6 +1,7 @@
 spring:
   application:
     name: hsf-provider
+    group: com.alibaba.cloud.acm
   hsf:
     version: 1.0.0
     timeout: 3000

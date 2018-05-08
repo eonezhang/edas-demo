@@ -58,4 +58,5 @@ dependencies{
     compile('com.alibaba.edas:edas-open-api-sdk:2.12.3')
 //    compile('com.alibaba.edas.acm:acm-sdk:1.0.6')
     compile('com.alibaba.cloud:spring-cloud-starter-acm:1.0.5')
+    compile('com.alibaba.edas:schedulerX-client:2.1.5')
 }

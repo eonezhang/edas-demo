@@ -1,6 +1,7 @@
 spring:
   application:
     name: hsf-consumer
+    group: order-service
   hsf:
     version: 1.0.0
     timeout: 1000

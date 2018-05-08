@@ -4,14 +4,15 @@ import org.junit.Test;
 
 import com.aliyun.edas.open.api.EdasApiAction.App;
 import com.aliyun.edas.open.api.EdasApiClient;
+import com.msparis.platform.edas.poc.EdasConstant;
 
 /**
  * @author eonezhang 28/04/2018
  */
 public class EdasOldAppApiTest {
 
-    private static final String AK = "***";
-    private static final String SK = "****";
+    private static final String AK = EdasConstant.AK;
+    private static final String SK = EdasConstant.SK;
 
     @Test
     public void testAppList() {

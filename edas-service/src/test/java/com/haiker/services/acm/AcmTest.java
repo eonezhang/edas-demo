@@ -8,6 +8,7 @@ import org.junit.Test;
 import com.alibaba.edas.acm.ConfigService;
 import com.alibaba.edas.acm.exception.ConfigException;
 import com.alibaba.edas.acm.listener.ConfigChangeListener;
+import com.msparis.platform.edas.poc.EdasConstant;
 
 /**
  * @author eonezhang 26/04/2018
@@ -22,8 +23,8 @@ public class AcmTest {
         Properties properties = new Properties();
         properties.put("endpoint", "acm.aliyun.com");
         properties.put("namespace", "****");
-        properties.put("accessKey", "****");
-        properties.put("secretKey", "***");
+        properties.put("accessKey", EdasConstant.AK);
+        properties.put("secretKey", EdasConstant.SK);
 //        properties.put("accessKey", "d685a49fa704448884007a49b6efca93");
 //        properties.put("secretKey", "DqIlQE/vyuwlfoMOe8/XiVAvzKk=");
 

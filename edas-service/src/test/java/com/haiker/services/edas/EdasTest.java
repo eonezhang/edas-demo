@@ -18,6 +18,7 @@ import com.aliyuncs.edas.model.v20170801.ListDeployGroupResponse;
 import com.aliyuncs.edas.model.v20170801.ListDeployGroupResponse.DeployGroup;
 import com.aliyuncs.exceptions.ClientException;
 import com.aliyuncs.profile.DefaultProfile;
+import com.msparis.platform.edas.poc.EdasConstant;
 
 /**
  * @author eonezhang 23/04/2018
@@ -28,8 +29,8 @@ public class EdasTest {
     @Ignore
     public void initEdas() throws ClientException {
         String region = "cn-hangzhou";
-        String accessKeyId = "TODO";
-        String accessKeySecret = "TODO";
+        String accessKeyId = EdasConstant.AK;
+        String accessKeySecret = EdasConstant.SK;
         String productName = "EDAS";
         String domain = "edas.cn-hangzhou.aliyuncs.com";
 
@@ -56,8 +57,8 @@ public class EdasTest {
     @Ignore
     public void deployOrderService() throws ClientException {
         String region = "cn-hangzhou";
-        String accessKeyId = "TODO";
-        String accessKeySecret = "TODO";
+        String accessKeyId = EdasConstant.AK;
+        String accessKeySecret = EdasConstant.SK;
         String productName = "EDAS";
         String domain = "edas.cn-hangzhou.aliyuncs.com";
 

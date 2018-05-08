@@ -1,5 +1,6 @@
 rootProject.name = 'demo'
 //include ":user-service"
 include ":edas-service"
-//include ":order-service"
-include ":spring-poc"
+include ":order-service"
+//include ":spring-poc"
+//include ":spring-docker"
