@@ -20,7 +20,7 @@ public class ServerApplication {
         PandoraBootstrap.markStartupAndWait();
     }
 
-//    @Bean(initMethod = "init")
+    @Bean(initMethod = "init")
     public SchedulerXClient schedulerXClient() {
         SchedulerXClient bean = new SchedulerXClient();
         bean.setGroupId("101-1-2-4377");
@@ -30,7 +30,7 @@ public class ServerApplication {
         return bean;
     }
 
-    @Bean(initMethod = "init")
+//    @Bean(initMethod = "init")
     public DtsClient dtsClient() {
         DtsClient bean = new DtsClient();
         bean.setGroupId("101-1-2-4377");
